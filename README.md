@@ -27,7 +27,7 @@ boards can have them for the expense of postage.
 
 A crucial component in Ian's desing is the 748 op amp. 
 These are no longer manufactured, but they are available at eBay.
-Lyckily for me, I found a few 748 IC:s in my old junkbox. 
+Luckily for me, I found a few 748 IC:s leftover from the happy '70s in my old junkbox. 
 
 Christer Bernérus, SM6FBQ. 
 JO67BQ 2024-04-04.
