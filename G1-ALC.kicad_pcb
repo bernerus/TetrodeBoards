@@ -42964,7 +42964,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Tetrode REC-G1-ALC Board\nDesign by Ian White GM3SEK 1998\nBoard layout SM6FBQ 2024\nDANGER HIGH VOLTAGE!"
+	(gr_text "Tetrode REC-G1-ALC Board Rel. 1.1\nDesign by Ian White GM3SEK 1998\nBoard layout SM6FBQ 2024\nDANGER HIGH VOLTAGE!"
 		(at 127.53 115.62 90)
 		(layer "F.SilkS")
 		(uuid "2a0ae48f-6517-450a-ac32-207f60a3884f")
