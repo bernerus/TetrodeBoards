@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "712b5e85-571f-4504-95bc-7ff158b82674")
 	(paper "A4")
+	(title_block
+		(title "G2-Control Board")
+		(date "2024-04-05")
+		(rev "1.1.0")
+		(company "SM6FBQ")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM741"
 			(pin_names
@@ -7235,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 93.98)
+			(xy 191.77 95.25) (xy 191.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7585,7 +7591,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 223.52 93.98)
+			(xy 194.31 92.71) (xy 223.52 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7785,7 +7791,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 93.98) (xy 186.69 114.3)
+			(xy 186.69 92.71) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +8141,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 93.98) (xy 143.51 106.68)
+			(xy 143.51 92.71) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8195,7 +8201,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 189.23 104.14)
+			(xy 189.23 92.71) (xy 189.23 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9105,16 +9111,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 143.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc5a080-7ad9-454c-9110-d764cf92f1b5")
-	)
-	(wire
-		(pts
 			(xy 196.85 114.3) (xy 196.85 120.65)
 		)
 		(stroke
@@ -9605,6 +9601,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b584d8-669f-47f6-8c5c-e0c2a64db533")
+	)
+	(wire
+		(pts
 			(xy 224.79 36.83) (xy 224.79 39.37)
 		)
 		(stroke
@@ -9655,7 +9661,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 184.15 128.27)
+			(xy 184.15 92.71) (xy 184.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10625,7 +10631,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 223.52 120.65)
+			(xy 223.52 92.71) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -14036,6 +14042,7 @@
 	(symbol
 		(lib_id "Regulator_Linear:LM317L_SOT-89")
 		(at 110.49 64.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15858,7 +15865,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 203.2 43.18 180)
+		(at 203.2 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15866,7 +15874,7 @@
 		(dnp no)
 		(uuid "5a348662-252f-4437-815d-8cd5f3fbe417")
 		(property "Reference" "J2"
-			(at 204.47 42.545 0)
+			(at 204.47 43.815 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15876,7 +15884,7 @@
 			)
 		)
 		(property "Value" "Q2_link"
-			(at 204.47 44.45 0)
+			(at 204.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20123,7 +20131,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "bbf8b1ff-3df6-4c20-b43b-d7092253fbbe")
 		(property "Reference" "D6"
@@ -21392,8 +21400,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 186.69 88.9 90)
-		(mirror x)
+		(at 189.23 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21401,7 +21408,7 @@
 		(dnp no)
 		(uuid "cfca00ee-c793-4917-813b-42a9b381f6aa")
 		(property "Reference" "J1"
-			(at 186.69 86.36 90)
+			(at 189.23 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21409,7 +21416,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 187.96 87.63 90)
+			(at 187.96 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21418,7 +21425,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_6-G-5,08_1x06_P5.08mm_Vertical"
-			(at 186.69 88.9 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21427,7 +21434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 88.9 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21436,7 +21443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 88.9 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21445,7 +21452,7 @@
 			)
 		)
 		(property "Supplier" "Electrokit"
-			(at 186.69 88.9 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21454,7 +21461,7 @@
 			)
 		)
 		(property "Order #" "41017488"
-			(at 186.69 88.9 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
