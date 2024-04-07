@@ -11447,8 +11447,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 33.02 116.84 0)
-		(mirror y)
+		(at 33.02 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11456,7 +11455,7 @@
 		(dnp no)
 		(uuid "43bc402a-212f-4203-8492-aef6e3c3f7b6")
 		(property "Reference" "J105"
-			(at 34.671 122.936 0)
+			(at 34.671 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11464,7 +11463,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 33.655 121.412 0)
+			(at 33.655 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
