@@ -22,10 +22,10 @@ signal, I checked these caps. I had only about 8 uF left and the G1 and G2 volta
 
 That's when I found out that these tetrode boards could help, but since the boards were no longer sold, I decided
 to try to re-engineer them using KiCad. This time using methods available today. Thus this design uses SMD mounted
-components and professionaly made boards. I have some boards left, so anyone who likes to try building on these
-boards can have them for the expense of postage.
+components and professionally produced boards. I have some boards left, so anyone who likes to try building on these
+boards can have them for the expense of postage. Beware though that they have issues. Check the issues tab at GitHub first.
 
-A crucial component in Ian's desing is the 748 op amp. 
+A crucial component in Ian's design is the 748 op amp. 
 These are no longer manufactured, but they are available at eBay.
 Luckily for me, I found a few 748 IC:s leftover from the happy '70s in my old junkbox. 
 
