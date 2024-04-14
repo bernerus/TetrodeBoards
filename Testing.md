@@ -20,7 +20,7 @@ Observe it for 10 minutes, then disconnect it from mains, and feel it with your 
 If it gets noisy, oe warm, or if you see smoke or you feel any smell from it, disconnect immediately. The primary test has failed.
 
 #### Secondary winding check.
-Now turn to the scondary winding. It should deliver at least 2x16V with a mid tap. 
+Now turn to the secondary winding. It should deliver at least 2x16V with a mid tap. 
 Identify the mid tap by measuring the voltage between the different connections. Find one pair that gives 32-48 Volts. These are
 the outer connections. The mid tap is the third one. Check that the voltage between the mid tap and the outer connections is between 
 16 avd 19 V and absolutely no more than 24V. When done, disconnect tre transformer from the mains.
@@ -39,8 +39,11 @@ Let the voltage be on for a few minutes and check that nothing is getting warm.
 
 Turn off the transformer.
 
-Make connections between J108 on the G1-ALC board to J104. The pin order is order same on both boards. Note that if you
-place the boards beside each other the pin order will mirror each other.
+Make connections between J108 on the G1-ALC board to J104. 
+The pin order is order same on both boards so you could use a flat band of wires.
+
+Verify the connection between J108 on the G1-ALC board to J104 by measuring the resistance from, JP101, pin closest to the corner,
+to J108, the pin closest to J107, i.e. the middle of the board edge. It should be 0-0.2 ohms.
 
 Unplug any jumper on JP101
 
@@ -48,6 +51,22 @@ Turn the transformer on again.
 Check that the DC voltage on the pin closest to the corner of J104 is 22-27V
 Check that the DC voltage on the 4:th pin from the corner of J104 is 11.8-12.3V
 Check that the DC voltage on pin 1 of U4 is 5V.
+
+Turn the transformer off
+
+Re-plug any unplugged jumper on JP101
+
+### G2-Control G2 rectifier low voltage check
+
+Connect the low voltage transformer secondary to J102 on the G1-ALC board instead of J101. 
+Turn the transformer on
+
+Check the DC voltage between CATHODE and G2-unreg pins of J108. 
+(These are the two pins of J108 closest to J104) You should see about 44-52 Volts, depending on the transformer.
+Note that this is just a check using low voltages, in the final setup the voltage should be considerablu higher.
+
+Turn the transformer off
+
 
 
 
