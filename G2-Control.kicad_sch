@@ -7741,6 +7741,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 90.17) (xy 250.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b23e86-c45f-4b19-a8a8-cdf7d35ca468")
+	)
+	(wire
+		(pts
 			(xy 196.85 64.77) (xy 194.31 64.77)
 		)
 		(stroke
@@ -8728,6 +8738,16 @@
 			(type default)
 		)
 		(uuid "76a6b14a-8e75-49ff-971c-400cd43f5782")
+	)
+	(wire
+		(pts
+			(xy 250.19 90.17) (xy 250.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d1ea33-201a-4f69-8ada-60d8d4f43a69")
 	)
 	(wire
 		(pts
@@ -15065,6 +15085,93 @@
 			(project "G2-Control"
 				(path "/712b5e85-571f-4504-95bc-7ff158b82674"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4362dcec-114e-4ec8-94fe-d6a05a73a30c")
+		(property "Reference" "H5"
+			(at 267.335 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 267.335 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Elecrow"
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order #" "----"
+			(at 264.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0350ee8b-fd2a-4bfb-a81a-ca16f0fcef38")
+		)
+		(instances
+			(project "G2-Control"
+				(path "/712b5e85-571f-4504-95bc-7ff158b82674"
+					(reference "H5")
 					(unit 1)
 				)
 			)
