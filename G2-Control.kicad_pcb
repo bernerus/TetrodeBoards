@@ -3629,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Value" "150k 1W [150k 1W]"
+		(property "Value" "150k 1W*"
 			(at 2.54 3.37 90)
 			(layer "F.Fab")
 			(uuid "40765802-1e2d-45f4-ae29-ad076d77c464")
@@ -7803,7 +7803,7 @@
 		(descr "varistor")
 		(tags "varistor SIOV")
 		(property "Reference" "VDR2"
-			(at 4.385 1.45 90)
+			(at 4.161069 1.926787 90)
 			(layer "F.SilkS")
 			(uuid "9af69158-3bde-4db1-ac5b-45e645713dfe")
 			(effects
@@ -7813,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Value" "V320LA40B [V320LA40B]"
+		(property "Value" "V320LA40B*"
 			(at 3.75 -2.6 90)
 			(layer "F.Fab")
 			(uuid "028b4de7-d135-4b64-8d9b-598864cc4591")
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Value" "82R 1W [82R 1W]"
+		(property "Value" "82R 1W*"
 			(at 2.54 3.37 0)
 			(layer "F.Fab")
 			(uuid "340d7f38-042b-402e-bfab-e9e1e0e071ff")
@@ -12661,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 2W typ"
+		(property "Value" "10k 2W*"
 			(at 2.54 3.37 90)
 			(layer "F.Fab")
 			(uuid "8b64f74c-2689-4b0b-b2a6-ce6711f47816")
@@ -12902,7 +12902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41017/2N5060-D.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12914,7 +12914,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Silicon controlled rectifier, cathode/gate/anode"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29688,7 +29688,7 @@
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
 		(property "Reference" "H5"
-			(at 0 -3.8 0)
+			(at -2.42 -3.41 0)
 			(layer "F.SilkS")
 			(uuid "2b3de705-a36d-47e6-998d-6ad5a15edcf5")
 			(effects
@@ -38364,9 +38364,9 @@
 		(polygon
 			(pts
 				(xy 125.16 67.33) (xy 131.63 68.592813) (xy 139.128815 73.407282) (xy 143.539755 72.376829) (xy 145.915928 58.889776)
-				(xy 160.92 58.976194) (xy 158.73 53.005619) (xy 146.944236 53.14) (xy 146.93 53.13) (xy 146.93 53.13)
-				(xy 146.93 53.13) (xy 142.16 53.13) (xy 138.38 56.91) (xy 137.42 56.91) (xy 135.58 58.75) (xy 133.11 58.75)
-				(xy 129.99 55.63) (xy 127.77 55.63) (xy 125.16 58.24)
+				(xy 160.92 58.976194) (xy 158.73 53.005619) (xy 146.944236 53.14) (xy 146.93 53.13) (xy 142.16 53.13)
+				(xy 138.38 56.91) (xy 137.42 56.91) (xy 135.58 58.75) (xy 133.11 58.75) (xy 129.99 55.63) (xy 127.77 55.63)
+				(xy 125.16 58.24)
 			)
 		)
 		(filled_polygon
