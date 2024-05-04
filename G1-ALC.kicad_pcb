@@ -764,7 +764,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/ca4e1c33-ed54-4364-966d-af3bc90c5803")
+		(path "/b6babd7a-b40f-4d73-a328-aeeb6854cf4e")
 		(sheetname "Root")
 		(sheetfile "G1-ALC.kicad_sch")
 		(attr smd)
@@ -8101,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/83606/cny17.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8113,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optoisolator Transistor with Base Output "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8137,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Order #" "40301704"
+		(property "Order #" "751-1268-5-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8149,7 +8149,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18162,7 +18162,7 @@
 				)
 			)
 		)
-		(property "Value" "CNY17-4"
+		(property "Value" "MCT5211M"
 			(at 3.81 7.41 90)
 			(layer "F.Fab")
 			(uuid "807e5476-c9ac-43e9-961f-b002bf4e5e55")
@@ -18185,7 +18185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mct5211m-d.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18197,7 +18197,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optoisolator Transistor with Base Output 4170Vrms 1 Channel 6-DIP CTR 110%@1mA"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18209,7 +18209,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "This component is crucial. It cannot simply be exchanged for any other optocoupler because its sensititity to low LED current is needed."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18221,7 +18221,7 @@
 				)
 			)
 		)
-		(property "Order #" "40301704"
+		(property "Order #" "MCT5211M-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18233,7 +18233,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22645,7 +22645,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "63c32173-3a55-4bf7-96b5-d69e90689ffa")
 			(effects
@@ -22836,7 +22836,7 @@
 			(uuid "dfb3b969-9720-4bff-bded-94acbc27720a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "980980fa-302a-4c85-8077-2bc2db5313d8")
 			(effects

@@ -9650,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Value" "CNY17-4"
+		(property "Value" "MCT5211M"
 			(at 90.17 133.858 0)
 			(effects
 				(font
@@ -9668,7 +9668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mct5211m-d.pdf"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optoisolator Transistor with Base Output 4170Vrms 1 Channel 6-DIP CTR 110%@1mA"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -9687,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "40301704"
+		(property "Order #" "MCT5211M-ND"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -9696,7 +9696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "This component is crucial. It cannot simply be exchanged for any other optocoupler because its sensititity to low LED current is needed."
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -14436,7 +14436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/83606/cny17.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/83606/cny17.pdf"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -14446,7 +14446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Optoisolator Transistor with Base Output "
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -14455,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "40301704"
+		(property "Order #" "751-1268-5-ND"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -14464,7 +14464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -16929,7 +16929,7 @@
 		(dnp no)
 		(uuid "a215d830-e7c6-4f28-b74b-9439353a0130")
 		(property "Reference" "RV101"
-			(at 104.648 163.195 0)
+			(at 105.664 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16938,7 +16938,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 104.648 165.735 0)
+			(at 111.506 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
