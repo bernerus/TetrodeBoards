@@ -8420,16 +8420,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 60.96) (xy 264.16 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46280400-ffd2-40a1-9940-f576d63c30d6")
-	)
-	(wire
-		(pts
 			(xy 116.84 182.88) (xy 127 182.88)
 		)
 		(stroke
@@ -10760,6 +10750,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 60.96) (xy 264.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ad2067-586d-4b48-ad53-89107bdcb82f")
+	)
+	(wire
+		(pts
 			(xy 130.81 119.38) (xy 139.7 119.38)
 		)
 		(stroke
@@ -11234,7 +11234,7 @@
 	)
 	(hierarchical_label "G2 reg"
 		(shape output)
-		(at 264.16 60.96 0)
+		(at 267.97 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11604,7 +11604,7 @@
 		)
 		(uuid "f94e2ab9-dc75-4038-9402-fceb445f9b23")
 	)
-	(hierarchical_label "G2-Reg"
+	(hierarchical_label "G2 reg"
 		(shape output)
 		(at 40.64 44.45 180)
 		(fields_autoplaced yes)
@@ -11921,7 +11921,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 264.16 60.96 0)
+		(at 267.97 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11931,7 +11931,7 @@
 		)
 		(uuid "abef6d57-3228-43ff-964c-d3d7b8aa1198")
 		(property "Netclass" "HVDC"
-			(at 270.51 58.42 0)
+			(at 274.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13885,7 +13885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u 25V*"
+		(property "Value" "100u 50V*"
 			(at 274.32 138.8109 0)
 			(effects
 				(font
@@ -13894,7 +13894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 271.4752 142.24 0)
 			(effects
 				(font
