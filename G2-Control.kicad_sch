@@ -4375,6 +4375,375 @@
 				)
 			)
 		)
+		(symbol "Relay:RTE2xxxx_split"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 6.858 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RTE2xxxx_Split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schrack RT2 relay, monostable dual pole dual throw, DC or AC coil"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TE DPDT CO monostable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RTE2xxxx_split_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RTE2xxxx_split_2_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 1.27) (xy -1.905 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 1.27) (xy 1.905 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RTE2xxxx_split_3_1"
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 1.27) (xy -1.905 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 1.27) (xy 1.905 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Timer:NE555D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6750,12 +7119,6 @@
 		(uuid "49c9373b-e321-4418-993f-f677b82604a8")
 	)
 	(junction
-		(at 113.03 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "507938ce-daef-472d-bb90-5b62b0b1eb9e")
-	)
-	(junction
 		(at 219.71 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7012,6 +7375,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b81346e4-b1af-4d67-b3da-d32e0e76da03")
+	)
+	(junction
+		(at 113.03 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9898c2a-fb6c-4163-8b07-58b4673f1a55")
 	)
 	(junction
 		(at 133.35 82.55)
@@ -8241,7 +8610,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 111.76) (xy 181.61 137.16)
+			(xy 171.45 111.76) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9098,6 +9467,16 @@
 			(type default)
 		)
 		(uuid "8853f84c-66d6-488d-8b19-e779f8228455")
+	)
+	(wire
+		(pts
+			(xy 171.45 137.16) (xy 181.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d3a2a6-b1ec-471e-98f6-b0d46b991e08")
 	)
 	(wire
 		(pts
@@ -10431,7 +10810,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 181.61 111.76)
+			(xy 168.91 111.76) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10843,7 +11222,7 @@
 	)
 	(hierarchical_label "CATHODE"
 		(shape output)
-		(at 40.64 46.99 180)
+		(at 40.64 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10855,7 +11234,7 @@
 	)
 	(hierarchical_label "G2 reg"
 		(shape output)
-		(at 260.35 60.96 90)
+		(at 264.16 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10963,7 +11342,7 @@
 	)
 	(hierarchical_label "G2 Unreg"
 		(shape input)
-		(at 40.64 41.91 180)
+		(at 40.64 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11081,18 +11460,6 @@
 		)
 		(uuid "98cb11c0-7280-452e-a747-4a3fdfaeabf1")
 	)
-	(hierarchical_label "G2-Reg-Out"
-		(shape output)
-		(at 264.16 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99b2c6ca-8d7a-46e7-84ff-be66ed33a168")
-	)
 	(hierarchical_label "-Ig2"
 		(shape input)
 		(at 40.64 49.53 180)
@@ -11131,7 +11498,7 @@
 	)
 	(hierarchical_label "G2 UNREG TX"
 		(shape bidirectional)
-		(at 40.64 39.37 180)
+		(at 40.64 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11237,7 +11604,7 @@
 		)
 		(uuid "f94e2ab9-dc75-4038-9402-fceb445f9b23")
 	)
-	(hierarchical_label "G2-Reg-Out"
+	(hierarchical_label "G2-Reg"
 		(shape output)
 		(at 40.64 44.45 180)
 		(fields_autoplaced yes)
@@ -13028,9 +13395,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5V-2_Split")
+		(lib_id "Relay:RTE2xxxx_split")
 		(at 214.63 138.43 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13038,7 +13404,7 @@
 		(dnp no)
 		(uuid "1f30eab7-ee56-482d-bc26-4fe1ffb53253")
 		(property "Reference" "K1"
-			(at 212.852 147.828 0)
+			(at 212.852 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,18 +13412,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
-			(at 220.726 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G5V-2"
-			(at 220.98 134.62 0)
+		(property "Value" "AZ822-2C-24DSE"
+			(at 220.726 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,7 +13422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
+		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -13075,7 +13431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -13084,7 +13440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Description" "24V 2A DPDT PCB Relay"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -13093,7 +13449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Supplier" "DigiKey"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -13102,28 +13458,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
 			(uuid "65909361-4c99-4002-bee6-310b6adc9820")
 		)
-		(pin "16"
+		(pin "14"
 			(uuid "8b1f2c9d-b609-4dd1-a30b-181968484329")
 		)
-		(pin "4"
+		(pin "24"
 			(uuid "d975f7ba-6a81-45cd-be6b-80dd3c1be84a")
 		)
-		(pin "6"
+		(pin "A2"
 			(uuid "fa22e87d-5433-45e9-8b47-410ecee263b6")
 		)
-		(pin "8"
+		(pin "21"
 			(uuid "606fac03-85d8-4605-9d59-8ac9a0154c3c")
 		)
 		(pin "11"
 			(uuid "0acb1206-73bd-41af-8604-aabff7750d57")
 		)
-		(pin "13"
+		(pin "22"
 			(uuid "f64ea8ff-8f14-48b3-bd22-22f68cf02a78")
 		)
-		(pin "9"
+		(pin "12"
 			(uuid "0c712bd7-dd6b-426c-a299-1aaa7dd6f61b")
 		)
 		(instances
@@ -16049,7 +16414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 238.506 136.525 0)
 			(effects
 				(font
@@ -16069,7 +16434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
 			(at 232.41 138.43 0)
 			(effects
 				(font
@@ -16078,7 +16443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V 2A DPDT PCB Relay"
 			(at 232.41 138.43 0)
 			(effects
 				(font
@@ -16087,7 +16452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 232.41 138.43 0)
 			(effects
 				(font
@@ -16096,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
 			(at 232.41 138.43 0)
 			(effects
 				(font
@@ -16238,44 +16603,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5V-2_Split")
-		(at 105.41 24.13 270)
+		(lib_id "Relay:RTE2xxxx_split")
+		(at 255.27 60.96 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "679b79af-a9df-422e-af75-9272bfc75d64")
 		(property "Reference" "K1"
-			(at 105.41 19.05 90)
+			(at 256.54 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
-			(at 105.41 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G5V-2"
-			(at 101.6 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
-			(at 105.41 24.13 0)
+		(property "Value" "AZ822-2C-24DSE"
+			(at 255.27 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16283,8 +16628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 24.13 0)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16292,8 +16637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
-			(at 105.41 24.13 0)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16301,8 +16646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
-			(at 105.41 24.13 0)
+		(property "Description" "24V 2A DPDT PCB Relay"
+			(at 255.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16310,28 +16655,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Supplier" "DigiKey"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
 			(uuid "78f053b5-b258-4fd7-8d2b-0423ecaf021a")
 		)
-		(pin "16"
+		(pin "A2"
 			(uuid "68ab492e-7ac5-44af-8760-dd6c7b5d9119")
 		)
-		(pin "4"
+		(pin "24"
 			(uuid "8ccac3c0-0aa5-4186-aea3-12bb884f2d5c")
 		)
-		(pin "6"
+		(pin "21"
 			(uuid "5e3b640a-5394-4f9e-9b26-7d6d534c23db")
 		)
-		(pin "8"
+		(pin "14"
 			(uuid "93ec0ce5-03ea-47a7-b535-29dbf32dadde")
 		)
 		(pin "11"
 			(uuid "fcc45a60-02b1-414f-bc9b-868ea0a613de")
 		)
-		(pin "13"
+		(pin "12"
 			(uuid "c8c31fe9-d5ee-4d16-9a5d-58c985836e2e")
 		)
-		(pin "9"
+		(pin "22"
 			(uuid "e30a18cc-4971-40d0-8b9b-027ce5ffaa67")
 		)
 		(instances
@@ -16529,7 +16892,7 @@
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 38.1 106.68 90)
 			(effects
 				(font
@@ -16566,7 +16929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" ""
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -16575,7 +16938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" ""
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -17332,44 +17695,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5V-2_Split")
-		(at 256.54 60.96 90)
+		(lib_id "Relay:RTE2xxxx_split")
+		(at 106.68 24.13 270)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89bc6856-de04-4fda-b55b-7424e12041d7")
 		(property "Reference" "K1"
-			(at 256.54 55.88 90)
+			(at 105.41 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
-			(at 256.54 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G5V-2"
-			(at 260.35 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
-			(at 256.54 60.96 0)
+		(property "Value" "AZ822-2C-24DSE"
+			(at 106.68 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17377,8 +17720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 60.96 0)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+			(at 106.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17386,8 +17729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
-			(at 256.54 60.96 0)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
+			(at 106.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17395,8 +17738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
-			(at 256.54 60.96 0)
+		(property "Description" "24V 2A DPDT PCB Relay"
+			(at 106.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17404,28 +17747,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(property "Supplier" "DigiKey"
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
 			(uuid "614d08e9-a778-4cce-b3a2-3827d8e22b1d")
 		)
-		(pin "16"
+		(pin "A2"
 			(uuid "e2b63489-a773-4c20-9cd4-42b371975046")
 		)
-		(pin "4"
+		(pin "12"
 			(uuid "72eb0de9-704e-4fee-81a0-71f11c17869d")
 		)
-		(pin "6"
+		(pin "14"
 			(uuid "cfbb708e-7960-411f-8397-ebf13e5dacac")
 		)
-		(pin "8"
+		(pin "21"
 			(uuid "1cf0c2c0-31e2-4241-8bef-61f7f96ebe26")
 		)
 		(pin "11"
 			(uuid "73dabfb7-8437-422a-b18f-94ae71265862")
 		)
-		(pin "13"
+		(pin "22"
 			(uuid "1d6a4b22-7b6a-45f7-9581-42898d98f44f")
 		)
-		(pin "9"
+		(pin "24"
 			(uuid "5123df54-3ffc-4e78-80c6-1b1754d8c74e")
 		)
 		(instances
@@ -18633,7 +18994,7 @@
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 36.83 81.788 90)
 			(effects
 				(font
@@ -18652,7 +19013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -18661,7 +19022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V 2A DPDT PCB Relay"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -18670,7 +19031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -18679,7 +19040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
 			(at 36.83 85.09 0)
 			(effects
 				(font
@@ -18745,7 +19106,7 @@
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 36.83 91.694 90)
 			(effects
 				(font
@@ -18764,7 +19125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41000/Songle_SRC.pdf"
+		(property "Datasheet" "https://www.azettler.com/pdfs/az822.pdf"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -18773,7 +19134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V 2A DPDT PCB Relay"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -18782,7 +19143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" "DigiKey"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -18791,7 +19152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" "3385-AZ822-2C-24DSE-ND"
 			(at 36.83 95.25 0)
 			(effects
 				(font
@@ -19596,7 +19957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 253.746 136.525 0)
 			(effects
 				(font
@@ -19634,7 +19995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" ""
 			(at 247.65 138.43 0)
 			(effects
 				(font
@@ -19643,7 +20004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" ""
 			(at 247.65 138.43 0)
 			(effects
 				(font
@@ -20422,7 +20783,7 @@
 				)
 			)
 		)
-		(property "Value" "SMI-12VDC-SL-2C"
+		(property "Value" "AZ822-2C-24DSE"
 			(at 38.1 118.364 90)
 			(effects
 				(font
@@ -20459,7 +20820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Electrokit"
+		(property "Supplier" ""
 			(at 38.1 121.92 0)
 			(effects
 				(font
@@ -20468,7 +20829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order #" "41000606"
+		(property "Order #" ""
 			(at 38.1 121.92 0)
 			(effects
 				(font
@@ -22965,7 +23326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P7.62mm_Vertical"
 			(at 91.44 29.972 90)
 			(effects
 				(font
