@@ -37,9 +37,9 @@ the outer connections. The mid tap is the third one. Check that the voltage betw
 Connect the secondary winding connections to J101 of the G!-ALC board.with the mid tap
 to the middle pole of J101. Turn the transformer on.
 
-Check that the DC voltage between ground and the pole of J107 closest to the corner is 22-27V
-Check that the DC voltage between ground and the pole of J107 next closest to the corner is 11.8-12.3V
-Check that the DC voltage between ground and the anode of D118 is about -12V.
+Check that the DC voltage between ground and pin 6 of J108 (closest to the corner) is 22-27V
+Check that the DC voltage between ground and pin 3 of J108 and pin 2 of J109 is 11.8-12.3V
+Check that the DC voltage between ground and pin 4 of J109 is about -12V.
 
 Let the voltage be on for a few minutes and check that nothing is getting warm.
 
@@ -48,10 +48,10 @@ Let the voltage be on for a few minutes and check that nothing is getting warm.
 Turn off the transformer.
 
 Make connections between J108 on the G1-ALC board to J104.
-The pin order is order same on both boards so you could use a flat band of wires.
+The pin order is order same on both boards, but mirrored,  so you could use a flat band of wires.
 
-Verify the connection between J108 on the G1-ALC board to J104 by measuring the resistance from, JP101, pin closest to the corner,
-to J108, the pin closest to J107, i.e. the middle of the board edge. It should be 0-0.2 ohms.
+Verify the connection between J108 on the G1-ALC board to J104 by measuring the resistance from, JP101, pin closest to the corner on the G2 board,
+to J108 pin 6, (closest to the corner) i.e. the middle of the board edge. It should be 0-0.2 ohms.
 
 Unplug any jumper on JP101
 
