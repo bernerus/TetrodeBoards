@@ -83,6 +83,13 @@ Apply mains power to the primary winding. Measure the voltages on the secondary 
 Find out which winding gives about 100 VAC, and which gives more than 300VAC.
 Disconnect the transformer from mains.
 
+### Configure relay voltage
+Insert a jumper at JP101 for either 24V or 12V relay voltage, depending on the relays.
+
+#### Wire up a PTT button.
+
+Connect an SPST button between J1 pin2 (PTT_L) and J3 pin 7 (GND) on the G2-control board
+
 ### Check voltages of the G1 section
 
 Connect the low voltage transformer secondary to J101 on the G1-ALC board. J102 should be unconneced.
@@ -92,19 +99,26 @@ Smoke test. If something smells warm or smoke erupts, turn off both transformers
 #### Configure for G1 switching
 
 If R107 is a resistor and not a link:
-Connect a link between J102 pin 5 and J103 pin 5 on the G2-control board.
-Connect a wire between J103 pin 4 and J3 pin 4 on the G2-control board. (CATHODE)
-Connect a wire between J102 pin 4 on the G2-control and J103 pin 1 (G1 Switch) on the G1-ALC board.
-Apply mains power to the low voltage transformer
-Check with an ohmmeter that there is no connection between 102 pin 1 (G1 Switch) on the G!-ALC board
-and J3 pin 4 on the G2-control board. When pushing the PTT switch, the relays should click and the
-ohmmeter should read near 0 ohms. Release the button and the connection should disappear.
+* Connect a link between J102 pin 5 and J103 pin 5 on the G2-control board.
+* Connect a wire between J103 pin 4 and J3 pin 4 on the G2-control board. (CATHODE)
+* Connect a wire between J102 pin 4 on the G2-control and J103 pin 1 (G1 Switch) on the G1-ALC board.
+
+Apply mains power to the low voltage transformer. Wait until the LED goes dim. It can take severeal minutes.
+
+Now check the connections made using an ohmmeter.  There should be no connection between 102 pin 1 (G1 Switch) on the G1-ALC board
+and J3 pin 4 on the G2-control board. 
+
+When pushing the PTT switch, the relays should click and the ohmmeter should read nearly 0 ohms. 
+
+Release the button and the connection should disappear.
+
 Disconnect mains power from the low voltage transformer
 
-#### Wire up for PTT and Class select
+#### Wire up and Class select
 
-Connect a PTT button between J1 pin2 (PTT_L) and J3 pin 7 (GNDPWR) On the G2-control board
-Connect a SPST switch between  J107 pin 1 and 4 on the G1-ALC board. (CLASS AB1_L). Set the switch to open.
+Get an SPST switch. Set the switch to open.
+
+Connect a SPST switch between  J107 pin 1 and 4 on the G1-ALC board. (CLASS AB1_L).
 
 #### Test G1 output voltages
 
