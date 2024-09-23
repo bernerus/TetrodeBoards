@@ -89,6 +89,9 @@ Connect the low voltage transformer secondary to J101 on the G1-ALC board. J102 
 Connect the secondary 100 VAC winding to J104. Leave the 300VAC winding unconnected and isolated.
 Smoke test. If something smells warm or smoke erupts, turn off both transformers immediately
 
+#### Wire up a PTT button.
+Connect a PTT button between J1 pin2 (PTT_L) and J3 pin 7 (GNDPWR) On the G2-control board.
+
 #### Configure for G1 switching
 
 If R107 is a resistor and not a link:
@@ -96,15 +99,18 @@ Connect a link between J102 pin 5 and J103 pin 5 on the G2-control board.
 Connect a wire between J103 pin 4 and J3 pin 4 on the G2-control board. (CATHODE)
 Connect a wire between J102 pin 4 on the G2-control and J103 pin 1 (G1 Switch) on the G1-ALC board.
 Apply mains power to the low voltage transformer
-Check with an ohmmeter that there is no connection between 102 pin 1 (G1 Switch) on the G!-ALC board
+Check with an ohmmeter that there is no connection between J103 pin 1 (G1 Switch) on the G1-ALC board
 and J3 pin 4 on the G2-control board. When pushing the PTT switch, the relays should click and the
-ohmmeter should read near 0 ohms. Release the button and the connection should disappear.
+ohmmeter should read near 0 ohms. 
+
+Release the button and the connection should disappear.
+
 Disconnect mains power from the low voltage transformer
 
-#### Wire up for PTT and Class select
-
-Connect a PTT button between J1 pin2 (PTT_L) and J3 pin 7 (GNDPWR) On the G2-control board
-Connect a SPST switch between  J107 pin 1 and 4 on the G1-ALC board. (CLASS AB1_L). Set the switch to open.
+#### Wire up a switch for Class select
+Get an SPST swich. Set the switch to open.
+On the G1-ALC board, Connect it between J107 pin 1 (CLASS AB1_L, On version 2.0.0 boards erroneously marked G2 Unreg) 
+and 5 (GND, On 2.0.0 boards erroneously marked G1 current trip).
 
 #### Test G1 output voltages
 
