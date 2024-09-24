@@ -34,7 +34,7 @@ the outer connections. The mid tap is the third one. Check that the voltage betw
 
 ### G1-ALC Low voltage check
 
-Connect the secondary winding connections to J101 of the G!-ALC board.with the mid tap
+Connect the secondary winding connections to J101 of the G1-ALC board with the mid tap
 to the middle pole of J101. Turn the transformer on.
 
 Check that the DC voltage between ground and pin 6 of J108 (closest to the corner) is 22-27V
@@ -65,7 +65,7 @@ Check that the DC voltage on pin 1 of U4 is 5V.
 
 Turn the transformer off
 
-Re-plug any unplugged jumper on JP101
+Re-plug the unplugged jumper on JP101
 
 ### G2-Control G2 rectifier low voltage check
 
@@ -224,7 +224,73 @@ Disconnect the meter and leave the load current path open, Push the PTT button a
 
 Turn the transformers off.
 
-### Check and adjust the G1 trip current.
+### Check ALC output and adjust the G1 trip current.
+
+#### Install U103
+
+The optocoupler U103 must be of the type MCT5211 which is sensitive enough to be able to transfer
+the low G1 currents to the other side. Observe the polarity and insert it into its socket.
+
+#### Setup
+
+* Disconnect the 100V Winding (J104 on the G1 board)
+* Disconnect the 300V Winding as well. (J102 on the G1 board)
+* Connect the G1 out (J103 pin 4) to GND (J107 pin 5) temporarily.
+* Remove the wire to the RV102 slider (J105 pin 2), but leave the other pins be connected.
+* If present, disconnect any wire to INH IN (J107 pin 3)
+
+#### Measure ALC and G1 Trip at zero G1 current
+Turn on the low voltage transformer.
+
+Measure, ALC OUT (J107 pin 4) should be at 0V measured against GND (J107 pin 5)
+
+Measure, G1 TRIP (J108 pin 5) should be at 0V measured against GND (J108 pin 6)
+
+Turn the transformer off.
+
+#### Generate 0.5 mA artificial G1 current
+
+Connect an ammeter between G1 meter+ (J103 pin 2) G1 meter - (J103 pin 3)
+Connect a 22 kOhm, 0.5W resistor between the RV102 slider (J105 pin 2) and +12V (J109 pin 2)
+
+#### Check ALC output changing
+Turn the transformer on. The ammeter should read 0,5 mA
+
+Turn RV103 fully counterclockwise. 
+While observing the ALC out pin (J107 pin 4) turn RV103 clockwise and at some point, the 
+voltage of ALC should change abruptly between 0V and -12V
+
+Turn the transformer off.
+
+#### Check G1 trip functionality
+##### Change the artifical current to 3 mA
+
+Replace the 22kΩ reistor to 3.3 kΩ.
+
+Turn RV101 fullt clockwise
+
+Turn the transformer on again. The ammeter should read ca 3 mA.
+Wait for the LED to become dim.
+
+Turn RV101 CCW, slowly until the LED lights fully.
+
+Turn RV101 a little clockwise and press the reset button, the LED should go dim.
+
+Turn RV101 CCW very slowly again and find the exact trip point, repeat if unsure.
+
+Turn the transformer off.
+
+Remove the 3.3 k resistor.
+
+Reconnect the wire from RV102 slider to J105 pin 2
+
+Remove the wire between G1 out (J103 pin 4) and GND (J107 pin 5)
+
+Reconnect the wire to INH IN (J107 pin 3) if there was one before
+
+
+
+
 
 
 
