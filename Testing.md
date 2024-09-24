@@ -143,16 +143,21 @@ Disconnect mains power from the transformers
 
 ## G2 voltage check and adjustment
 
-##### Check 30V Rail
+##### Check the 30V Rail
 
 Now, with the transformers off, connect the 100 VAC winding ( NO, not the 330V yet) to J102 on the G1-ALC board.
 Connect the voltmeter between pin 4 and 7 of yet empty socket of U2. Positive on pin 7.
-Turn on the transformers. The voltmeter should show +30V approximately. If not, fix before continuing. The 748 is precious!!
+Turn on the transformers. The voltmeter should show +30V approximately. If not, fix before continuing. The 748 is precious
+and hard to come by. It is no longer manufactured.
 Turn the transformers off again.
+
 
 ##### Install the 748
 
-Now it's time to put in the 748 in its socket. IMPORTANT! Do not continue without it or you will burn R13 due to VDR1 clamping the overvoltage produced without the 748 regulating it down below 400V. Observe the ploarity of the 748.
+Now it's time to put in the 748 in its socket. IMPORTANT! Do not continue without it or you will burn R13 due to VDR1 clamping the overvoltage produced without the 748 regulating it down below 400V. Observe the polarity of the 748.
+
+##### Install R14
+R14 is off-board. Connect it to J3 between pins 1 and 4 on the G2 board.
 
 ##### Connect the 330 volt winding
 
