@@ -159,6 +159,12 @@ Turn the transformers off again.
 
 Now it's time to put in the 748 in its socket. IMPORTANT! Do not continue without it or you will burn R13 due to VDR1 clamping the overvoltage produced without the 748 regulating it down below 400V. Observe the ploarity of the 748.
 
+##### Install R14
+Install R14 between J3-1 and J3-4 on the G2 board. It is off-board.
+
+##### Install LK3
+Install LK3 if not done so previously.
+
 ##### Connect the 330 volt winding
 
 **WARNING EVEN MORE LETHAL VOLTAGES WILL BE PRESENT DURING THESE TESTS**
@@ -170,7 +176,7 @@ Connect the 330V winding to J102 instead.
 
 Connect the voltmeter negative end to the CATHODE rail (J108-2 on G1 board)
 Connect the voltmeter positive end to the G2-UNREG output (J108-1 on the G1 board)
-Turn the transformer on briefly, the voltmeter should show between 350 to 400V.
+Turn the transformer on briefly, the voltmeter should show between 350 to 410V.
 If voltages seems OK, turn on for 10 seconds and then off.
 Look and smell for smoke and heat building up. DO NOT TOUCH ANYTHING until the voltmeter goes below 30V.
 
