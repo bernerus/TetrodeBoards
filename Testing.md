@@ -96,8 +96,6 @@ Connect an SPST button between J1 pin2 (PTT_L) and J3 pin 7 (GND) on the G2-cont
 ### Check voltages of the G1 section
 
 Connect the low voltage transformer secondary to J101 on the G1-ALC board. J102 should be unconneced.
-Connect the secondary 100 VAC winding to J104. Leave the 300VAC winding unconnected and isolated.
-Smoke test. If something smells warm or smoke erupts, turn off both transformers immediately
 
 #### Configure for G1 switching
 
@@ -109,7 +107,7 @@ If R107 is a resistor and not a link:
 Apply mains power to the low voltage transformer. Wait until the LED goes dim. It can take severeal minutes.
 
 Now check the connections made using an ohmmeter.  There should be no connection between 102 pin 1 (G1 Switch) on the G1-ALC board
-and J3 pin 4 on the G2-control board. 
+and J3 pin 2 on the G2-control board. 
 
 When pushing the PTT switch, the relays should click and the ohmmeter should read nearly 0 ohms. 
 
@@ -121,23 +119,30 @@ Disconnect mains power from the low voltage transformer
 
 Get an SPST switch. Set the switch to open.
 
-Connect a SPST switch between  J107 pin 1 and 4 on the G1-ALC board. (CLASS AB1_L).
+Connect a SPST switch between  J107 pin 1 and 5 on the G1-ALC board. (CLASS AB1_L).
+Check that there is about 12V on J107 pin 1 against ground when the switch is off and 0V when on.
 
 #### Test G1 output voltages
 
 Apply power to the low voltage transformer.
 
+Check that the DC voltage on J104 pin 4 on the G2-control board is 11.8-12.3V against ground.
+
+Connect the secondary 100 VAC winding of the G1/G2 transformer to J104. Leave the 300VAC winding unconnected and isolated.
+
 Connect both transformers to mains voltage.
-Beware, there is now lethal voltages available at the cards.
-Check that the DC voltage on the 4:th pin from the corner of J104 to ground is 11.8-12.3V
-Check the G1 out voltage against the CATHODE rail (J108 pin 2), should be less than -100V.
+
+Beware, there is now lethal voltages available on both boards.
+
+Smoke test. If something smells warm or smoke erupts, turn off both transformers immediately
+
+Check the G1 out voltage (j103 pin 4) against the CATHODE rail (J108 pin 2). It should be lower than -100V, typically -102 V or more.
 Press the PTT button. The voltage should rise to about -93 to -92 Volts depending on the position of RV102.
 Release the button.
 
 Flip the SPST switch to the ON (Class AB1) position.
-The voltage should be between -84 to -81V depending on the position of RV102
-With the PTT button pressed, the voltage should rise to about between -50 to -56V V
-Check that there is about 12V on J107 pin 1 against ground.
+The voltage should be between -82 to -79V depending on the position of RV102
+With the PTT button pressed, the voltage should rise to about between -52 to -59V
 
 Disconnect mains power from the transformers
 
