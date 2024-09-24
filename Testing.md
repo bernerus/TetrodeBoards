@@ -184,7 +184,8 @@ Turn the transformers off.
 
 ##### Test the warm up timing
 
-Wait for about 10 minutes before proceeding to allow the warmup timing capacitor to leed out all its charge. Get a stopwatch ready while waiting.
+Wait for about 10 minutes before proceeding to allow the warmup timing capacitor to bleed out all its charge. 
+Prepare a stopwatch ready while waiting.
 Turn the transformers again and start the stopwatch. The LED should be fully lit.
 After about 2 or 3 minutes the LED should go almost off. Then stop the watch.
 Check the required warmup time needed for your tube(s). You may want to adjust the value of R20 to get the desired time.
