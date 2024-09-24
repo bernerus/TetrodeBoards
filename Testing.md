@@ -212,14 +212,21 @@ is absolutely flat. If not, the transformer may need more turns of wire for the 
 
 ##### Adjust the G2 trip current.
 Turn RV2 fully clockwise.
-Compute what resistance is needed to load the trip current needed. I needed to load 40 mA and at 350V I needed a resistance of 8750 ohms at 14W.
+Compute what resistance is needed to load the trip current needed. I needed to load 40 mA and at 350V so I needed a resistance of 8750 ohms at 14W.
 Connect the load resistance between the G2 output pin and the cathode pin.
-Connect the voltmeter to measure the current through the load resistance and fine adjust the resistance,
-while pressing the PTT button until the current is at the computed trip current (40 mA in my case)
+Connect the ammeter in series with the resistance to monitor the current and fine adjust the resistance to the correct trip current
+while pressing the PTT button. (40 mA in my case)
 When you have the precise load resistance needed, 
 push the PTT button and very slowly turn RV2 counterclockwise until the LED lights up and the relays drop.
 Press the reset button and the LED should go dark again.
-disconnect the meter and leave the load current path open, Push the PTT button again and the LED should stay dark.
+
+Disconnect the meter and leave the load current path open, Push the PTT button again and the LED should stay dark.
+
+Turn the transformers off.
+
+### Check and adjust the G1 trip current.
+
+
 
 
 
