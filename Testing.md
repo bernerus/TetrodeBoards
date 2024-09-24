@@ -56,8 +56,11 @@ to J108 pin 6, (closest to the corner) i.e. the middle of the board edge. It sho
 Unplug any jumper on JP101
 
 Turn the transformer on again.
+
 Check that the DC voltage on the pin closest to the corner of J104 is 22-27V
+
 Check that the DC voltage on the 4:th pin from the corner of J104 is 11.8-12.3V
+
 Check that the DC voltage on pin 1 of U4 is 5V.
 
 Turn the transformer off
@@ -100,7 +103,7 @@ Smoke test. If something smells warm or smoke erupts, turn off both transformers
 
 If R107 is a resistor and not a link:
 * Connect a link between J102 pin 5 and J103 pin 5 on the G2-control board.
-* Connect a wire between J103 pin 4 and J3 pin 4 on the G2-control board. (CATHODE)
+* Connect a wire between J103 pin 4 and J3 pin 2 on the G2-control board. (CATHODE)
 * Connect a wire between J102 pin 4 on the G2-control and J103 pin 1 (G1 Switch) on the G1-ALC board.
 
 Apply mains power to the low voltage transformer. Wait until the LED goes dim. It can take severeal minutes.
