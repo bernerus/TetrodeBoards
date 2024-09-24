@@ -267,7 +267,8 @@ Turn the transformer off.
 
 Replace the 22kΩ reistor to 3.3 kΩ.
 
-Turn RV101 fullt clockwise
+#### Tune the G1 trip level
+Turn RV101 fully clockwise
 
 Turn the transformer on again. The ammeter should read ca 3 mA.
 Wait for the LED to become dim.
@@ -279,6 +280,8 @@ Turn RV101 a little clockwise and press the reset button, the LED should go dim.
 Turn RV101 CCW very slowly again and find the exact trip point, repeat if unsure.
 
 Turn the transformer off.
+
+### Wrap up
 
 Remove the 3.3 k resistor.
 
