@@ -242,6 +242,8 @@ the low G1 currents to the other side. Observe the polarity and insert it into i
 #### Measure ALC and G1 Trip at zero G1 current
 Turn on the low voltage transformer.
 
+Turn RV103 fully counterclockwise
+
 Measure, ALC OUT (J107 pin 4) should be at 0V measured against GND (J107 pin 5)
 
 Measure, G1 TRIP (J108 pin 5) should be at 0V measured against GND (J108 pin 6)
@@ -256,9 +258,12 @@ Connect a 22 kOhm, 0.5W resistor between the RV102 slider (J105 pin 2) and +12V 
 #### Check ALC output changing
 Turn the transformer on. The ammeter should read 0,5 mA
 
-Turn RV103 fully counterclockwise. 
-While observing the ALC out pin (J107 pin 4) turn RV103 clockwise and at some point, the 
-voltage of ALC should change abruptly between 0V and -12V
+Turn both RV101 and RV103 fully counterclockwise. 
+While observing the ALC out pin (J107 pin 4) turn RV101 clockwise and at some point, the 
+voltage of ALC should change quite quickly between 0V and -12V
+
+If that does not happen, then if and ALC OUT stays at -12V, short-circuit R122. On the other hand if
+ALC OUT stays close to 0V, replace R122 with a 1kΩ resisttor instead.
 
 Turn the transformer off.
 
