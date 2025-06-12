@@ -57,7 +57,7 @@ have 10 empty boards left for anyone interested. I might lend you the stencils.
 # Class C
 
 Since '98 ham radio has evolved. Nowadays there is a lot of machine generated modes, most notably FT8.
-Many of these modes employ a constant amplitude, tid means that PA's in Class C are interesting again.
+Many of these modes employ a constant amplitude, this means that PA's in Class C are interesting again.
 As an experiment I included some circuitry to make it possible to switch the bias voltage
 between 2 different values. This circuit uses an optocoupler to short-circuit one zener diode
 of two that makes up the bias reference.

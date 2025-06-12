@@ -117,7 +117,7 @@ and 5 (GND, On 2.0.0 boards erroneously marked G1 current trip).
 Apply power to the low voltage transformer.
 
 Connect both transformers to mains voltage.
-Beware, there is now lethal voltages available at the cards.
+Beware, there are now lethal voltages available on the boards.
 Check that the DC voltage on the 4:th pin from the corner of J104 to ground is 11.8-12.3V
 Check the G1 out voltage against the CATHODE rail (J108 pin 2), should be less than -100V.
 Press the PTT button. The voltage should rise to about -93 to -92 Volts depending on the position of RV102.
@@ -141,7 +141,8 @@ Turn the transformers off again.
 
 ##### Install the 748
 
-Now it's time to put in the 748 in its socket. IMPORTANT! Do not continue without it or you will burn R13 due to VDR1 clamping the overvoltage produced without the 748 regulating it down below 400V. Observe the ploarity of the 748.
+Now it's time to put in the 748 in its socket. IMPORTANT! Do not continue without it or you will burn R13 due to VDR1 clamping the overvoltage produced without the 748 regulating it down below 400V.
+Observe the polarity of the 748.
 
 ##### Connect the 330 volt winding
 
@@ -179,21 +180,18 @@ Adjust RV101 while pushing the PTT switch until the voltmeter shows 350V (For 4C
 Release the PTT switch and turn the transformers off.
 
 ##### Check waveform of G2
+
 Connect an oscilloscope in parallel to the voltmeter. Use a 10x probe. Check that the waveform when pushing the PTT button
 is absolutely flat. If not, the transformer may need more turns of wire for the G2 winding.
 
 ##### Adjust the G2 trip current.
+
 Turn RV2 fully clockwise.
 Compute what resistance is needed to load the trip current needed. I needed to load 40 mA and at 350V I needed a resistance of 8750 ohms at 14W.
 Connect the load resistance between the G2 output pin and the cathode pin.
 Connect the voltmeter to measure the current through the load resistance and fine adjust the resistance,
 while pressing the PTT button until the current is at the computed trip current (40 mA in my case)
-When you have the precise load resistance needed, 
+When you have the precise load resistance needed,
 push the PTT button and very slowly turn RV2 counterclockwise until the LED lights up and the relays drop.
 Press the reset button and the LED should go dark again.
 disconnect the meter and leave the load current path open, Push the PTT button again and the LED should stay dark.
-
-
-
-
-
