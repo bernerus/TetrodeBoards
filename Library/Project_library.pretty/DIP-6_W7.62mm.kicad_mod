@@ -1,0 +1,327 @@
+(footprint "DIP-6_W7.62mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
+	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 3.81 -2.33 180)
+		(layer "F.SilkS")
+		(uuid "60450623-911b-406f-b51a-208feaeb40b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MCT5211M"
+		(at 3.81 7.41 180)
+		(layer "F.Fab")
+		(uuid "293c3002-0293-4355-837d-1211839b9526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4dc2f0a-86d4-4f6f-8523-788724f0c279")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mct5211m-d.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2cf2029-7beb-4497-aad9-721376a38238")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Optoisolator Transistor with Base Output 4170Vrms 1 Channel 6-DIP CTR 110%@1mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "468469c2-1726-4eb0-8050-00191fdbc07b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Notes" "This component is crucial. It cannot simply be exchanged for any other optocoupler because its sensititity to low LED current is needed."
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ea889da-f822-4946-a850-f8cbdb1492d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order #" "MCT5211M-ND"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f55f7a7b-0c6b-46c4-8f53-2d6a5ab25770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c84c894-31b5-49b3-bd7f-2e36b9cb9f1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.16 -1.33)
+		(end 1.16 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b686d042-4385-4729-a071-a21798ca0461")
+	)
+	(fp_line
+		(start 1.16 6.41)
+		(end 6.46 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce35cfd0-fc14-439b-a8e8-4f9c80649f1d")
+	)
+	(fp_line
+		(start 2.81 -1.33)
+		(end 1.16 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77891f6b-4718-42ca-bec6-17590e4a50e7")
+	)
+	(fp_line
+		(start 6.46 -1.33)
+		(end 4.81 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0af05a4d-1563-4fde-96db-0362b0faecbe")
+	)
+	(fp_line
+		(start 6.46 6.41)
+		(end 6.46 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9964f88-7cff-4aa6-978e-2bc73beb92ec")
+	)
+	(fp_arc
+		(start 4.81 -1.33)
+		(mid 3.81 -0.33)
+		(end 2.81 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21b5994d-9a86-4c8f-affa-a48564532ce7")
+	)
+	(fp_line
+		(start -1.1 -1.55)
+		(end -1.1 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d725d3b3-630f-44b8-a2d7-c18c694cd9cb")
+	)
+	(fp_line
+		(start -1.1 6.6)
+		(end 8.7 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14ef8cc3-750c-4bcd-b0d3-f7ac410c56d4")
+	)
+	(fp_line
+		(start 8.7 -1.55)
+		(end -1.1 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecc3fe08-067a-4ec6-8d36-1d57d5808eb5")
+	)
+	(fp_line
+		(start 8.7 6.6)
+		(end 8.7 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f08d025-4761-4ab7-953a-20a1c3fc5f8f")
+	)
+	(fp_line
+		(start 0.635 -0.27)
+		(end 1.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38f5db2c-1012-48e4-ab1d-7c62db074c60")
+	)
+	(fp_line
+		(start 0.635 6.35)
+		(end 0.635 -0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7e53370-d159-4310-8e2b-617d36bc481e")
+	)
+	(fp_line
+		(start 1.635 -1.27)
+		(end 6.985 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a044e4a-12d0-4fa4-a3db-44114314a0c4")
+	)
+	(fp_line
+		(start 6.985 -1.27)
+		(end 6.985 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f8eb6b4-cba4-4b9a-b131-38162a44af08")
+	)
+	(fp_line
+		(start 6.985 6.35)
+		(end 0.635 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8451cf87-3fd2-4a16-b3a0-ad05051bc6ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 2.54 180)
+		(layer "F.Fab")
+		(uuid "5bc65d05-b26f-4bb3-96c6-6168d326493d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64ffe7f5-24c1-4c18-ab94-74b366330263")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b18f2896-5ae3-4fc2-940a-615d07146704")
+	)
+	(pad "3" thru_hole oval
+		(at 0 5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "280804a1-13dd-4b2e-92e2-acbee5118679")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 5.08)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79a438b6-29b5-4474-8a00-62db9d1b5f7f")
+	)
+	(pad "5" thru_hole oval
+		(at 7.62 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "405063d2-a62c-4162-a4d9-a61b6add4dc2")
+	)
+	(pad "6" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3243d15e-09eb-4605-8b30-aeee691d5c76")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-6_W7.62mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

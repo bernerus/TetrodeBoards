@@ -1,14 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "77943a99-cf40-4416-8ebd-c9ea5d3f1db0")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "Differencets with GM3SEK original schematic [Tetrode boards Issue 1.24 as of July 2018]\n\n1. The pin numbers of U102 sre different. The LM324 contains four opamps, and I selected different parts \n    for the same function. This applies to U102 C and D. The other two, U102A and B have the same pin numbering \nas the original drawing.\n2. I included an extra zener diode and an optoisolator to be able to use different biasing\n   to make it possible to switch between class AB and class C. These components have indexes 301 and up.\n3. I used a 450 uF capacitor for C103 because the 220 uF cap was unavailale and actually larger.\n4. The link LK2 in the original schematic has been removed. I did not understand its purpose.\n"
+	(text_box "Differences with GM3SEK original schematic [Tetrode boards Issue 1.24 as of July 2018]\n\n1. The pin numbers of U102 sre different. The LM324 contains four opamps, and I selected different parts \n    for the same function. This applies to U102 C and D. The other two, U102A and B have the same pin numbering \nas the original drawing.\n2. I included an extra zener diode and an optoisolator to be able to use different biasing\n   to make it possible to switch between class AB and class C. These components have indexes 301 and up.\n   The cold end of R115 has been moved to the CLASS_AB1_L input in order do disable ALC in Class C.\n3. I used a 450 uF capacitor for C103 because the 220 uF cap was unavailale and actually larger.\n4. The link LK2 in the original schematic has been removed. I did not understand its purpose.\n5. The value of R126 has been changed from 100k to 39k beacuse it has shown that the SCR needs a higher\n   voltage, or more current, to trigger, than was available with the 100k value.\n6. The tuning of the G1-ALC level seems to be problematic. And SMD mounting makes it even harder to fix.\n   That's why the board now features a 3 poled jumper, JP301 and an additional resistor, R302,  to\n   be able to easily short-circuit R122 or to add 56k to its value. \n   For the original circuit, put a jumper between JP301 2 and 3.\n   To add 560k, remove the jumper completely. \n   To short-circuit put the jumper between JP301 1 and 2.\n"
 		(exclude_from_sim no)
-		(at 19.05 22.86 0)
-		(size 109.22 29.21)
+		(at 22.86 22.86 0)
+		(size 118.745 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
